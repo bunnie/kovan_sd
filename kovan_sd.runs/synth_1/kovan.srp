@@ -1,0 +1,106 @@
+Release 13.3 - xst O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: kovan.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "kovan.prj"
+
+---- Target Parameters
+Target Device                      : xc6slx9csg324-2
+Output File Name                   : "kovan.ngc"
+
+---- Source Options
+Top Module Name                    : kovan
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+Netlist Hierarchy                  : rebuilt
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/common/sync_reset.v" into library work
+Parsing module <sync_reset>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/common/servo_pwm.v" into library work
+Parsing module <servo_pwm>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/common/mot_pwm.v" into library work
+Parsing module <mot_pwm>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/robot_iface.v" into library work
+Parsing module <robot_iface>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/common/pwm.v" into library work
+Parsing module <pwm>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/common/i2c_slave.v" into library work
+Parsing module <i2c_slave>.
+Analyzing Verilog file "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" into library work
+Parsing module <kovan>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 771: Port reg_0 is not connected to this instance
+
+Elaborating module <kovan>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <BUFG>.
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 187: Assignment to NAND_D ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 188: Assignment to NAND_UK ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 189: Assignment to NAND_ALE ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 190: Assignment to NAND_CLE ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 191: Assignment to NAND_WE ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 192: Assignment to NAND_CS ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 193: Assignment to NAND_RE ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 194: Assignment to NAND_RB ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 196: Assignment to SD_CS ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 197: Assignment to SD_DI ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 198: Assignment to SD_CLK ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 199: Assignment to SD_TURNON ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 200: Assignment to SD_DO ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 201: Assignment to SD_DAT1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 202: Assignment to SD_DAT2 ignored, since the identifier is never used
+ERROR:HDLCompiler:1654 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 220: Instantiating <qvga_clkgen> from unknown module <clk_wiz_v3_2_qvga>
+Module kovan remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 32: Empty module <kovan> remains a black box.
+--> 
+
+Total memory usage is 210624 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -217,13 +217,13 @@ module kovan (
    // i.e., 408 x 262 x 60 Hz (408 is total H width, 320 active, etc.)
    wire            qvga_clkgen_locked;
    
-//   clk_wiz_v3_2_qvga qvga_clkgen( .CLK_IN1(clk26buf),
-//				  .clk_out6p4(clk_qvga),
-//				  .clk_out13(clk13buf),
-//				  .clk_out3p25(clk3p2M), // note: a slight overclock (about 2%)
-//				  .clk_out208(clk208M),
-//				  .RESET(glbl_reset),
-//				  .LOCKED(qvga_clkgen_locked) );
+   clk_wiz_v3_2_qvga qvga_clkgen( .CLK_IN1(clk26buf),
+				  .clk_out6p4(clk_qvga),
+				  .clk_out13(clk13buf),
+				  .clk_out3p25(clk3p2M), // note: a slight overclock (about 2%)
+				  .clk_out208(clk208M),
+				  .RESET(glbl_reset),
+				  .LOCKED(qvga_clkgen_locked) );
    
    sync_reset  qvga_reset(
 			  .clk(clk_qvga),

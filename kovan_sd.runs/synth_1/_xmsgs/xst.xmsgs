@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 771: Port <arg fmt="%s" index="1">reg_0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 187: Assignment to <arg fmt="%s" index="1">NAND_D</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 188: Assignment to <arg fmt="%s" index="1">NAND_UK</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 189: Assignment to <arg fmt="%s" index="1">NAND_ALE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 190: Assignment to <arg fmt="%s" index="1">NAND_CLE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 191: Assignment to <arg fmt="%s" index="1">NAND_WE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 192: Assignment to <arg fmt="%s" index="1">NAND_CS</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 193: Assignment to <arg fmt="%s" index="1">NAND_RE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 194: Assignment to <arg fmt="%s" index="1">NAND_RB</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 196: Assignment to <arg fmt="%s" index="1">SD_CS</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 197: Assignment to <arg fmt="%s" index="1">SD_DI</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 198: Assignment to <arg fmt="%s" index="1">SD_CLK</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 199: Assignment to <arg fmt="%s" index="1">SD_TURNON</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 200: Assignment to <arg fmt="%s" index="1">SD_DO</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 201: Assignment to <arg fmt="%s" index="1">SD_DAT1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 202: Assignment to <arg fmt="%s" index="1">SD_DAT2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 220: Instantiating &lt;<arg fmt="%s" index="1">qvga_clkgen</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">clk_wiz_v3_2_qvga</arg>&gt;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:/largework/fpga/kovan/kovan_sd/kovan_sd.srcs/sources_1/imports/kovan_sd/kovan_sd.v" Line 32: Empty module &lt;<arg fmt="%s" index="1">kovan</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+
